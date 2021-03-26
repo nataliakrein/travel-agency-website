@@ -12,10 +12,12 @@ Principais conceitos colocados em prática:
 Como o intuito do projeto era apenas revisar alguns conceitos básicos, optei por não utilizar a metodologia BEM.
 
 ### 💻 Versão desktop
-<img src="https://j.gifs.com/5QqzzR.gif" width="850" height="400">
+![](https://user-images.githubusercontent.com/75141156/112648055-df877f80-8e27-11eb-9e2c-bf1cc8c6035a.gif)
+
 
 ### 📱 Versão mobile
-<img src="https://j.gifs.com/MwYVA3.gif">
+![](https://user-images.githubusercontent.com/75141156/112647436-46f0ff80-8e27-11eb-9176-5a833a9eec64.gif)
+
 
 ## 🛠 Tecnologias
 Para o desenvolvimento deste projeto utilizei as seguintes tecnologias:
