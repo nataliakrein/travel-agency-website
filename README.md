@@ -1,6 +1,11 @@
 # Travel agency website ✈💙
-
-O projeto consiste em um website estático para uma agência de viagens fictícia. O objetivo do mesmo foi treinar os conceitos acerca de HTML e CSS.
+<p align="center">
+ <a href="descricao">Descrição</a> | 
+ <a href="#Tecnologias">Tecnologias</a> | 
+ <a href="#Clone">Clone</a> |
+ <a href="#Licença">Licença</a>
+</p>
+<id="#descricao">O projeto consiste em um website estático para uma agência de viagens fictícia. O objetivo do mesmo foi treinar os conceitos acerca de HTML e CSS.
 Para visitar o projeto, clique aqui.
 
 Principais conceitos colocados em prática:
@@ -34,6 +39,5 @@ abrir o arquivo index.html no seu navegador
 ```
 ## ⚖ Licença
 Esse projeto está sob licença MIT. Veja o arquivo <a href="https://github.com/nataliakrein/travel-agency-website/blob/main/LICENSE">LICENÇA</a> para mais detalhes.
-
 ## 
 ##### Coded with ❤ by <a href="https://github.com/nataliakrein/">Natália Krein</a>
