@@ -1,5 +1,11 @@
 # Travel agency website ✈💙
-O projeto consiste em um website estático para uma agência de viagens fictícia. O objetivo do mesmo foi treinar os conceitos acerca de HTML e CSS.
+<p align="center">
+ <a href="descricao">Descrição</a> | 
+ <a href="#tecnologias">Tecnologias</a> | 
+ <a href="#Clone">Clone</a> |
+ <a href="#Licença">Licença</a>
+</p>
+<id="descricao">O projeto consiste em um website estático para uma agência de viagens fictícia. O objetivo do mesmo foi treinar os conceitos acerca de HTML e CSS.
 Para visitar o projeto, clique aqui.
 
 Principais conceitos colocados em prática:
