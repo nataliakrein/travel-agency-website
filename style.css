@@ -1,0 +1,359 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap');
+
+* {
+	box-sizing: border-box;
+}
+
+ul{
+	list-style: none;
+}
+
+a{
+	text-decoration: none;
+	color: inherit;
+}
+
+button {
+	padding: 10px 15px;
+	border-radius: 8px;
+	font-weight: bold;
+	border: 0;
+	background: #FEA805;
+	color: #F9F9FB;
+	font-family: 'Montserrat', sans-serif;
+}
+
+body {
+	margin: 0;
+	font-family: 'Montserrat', sans-serif;
+}
+
+header {
+	height: calc(100vh - 150px);
+	background: no-repeat center/cover url('assets/header-image.jpg');
+}
+
+header nav {
+	display: flex;
+	justify-content: space-between;
+	margin: auto 30px;
+	font-weight: bold;
+}
+
+header nav ul{
+	display: flex;
+}
+
+header nav ul li{
+	margin: 0 15px;
+}
+
+.header-content{
+	max-width: 400px;
+	margin: 150px auto;
+	text-align: center;
+}
+
+.header-content h1{
+	margin-bottom: 10px;
+	font-size: 4rem;
+}
+
+.pacotes{
+	padding: 15px;
+	background: #F5F5F7;
+}
+
+.pacotes .pacotes-title {
+	width: 100%;
+	margin: 25px 0;
+	text-align: center;
+}
+
+.pacotes .pacotes-cards{
+	display: flex;
+	margin: auto;
+	max-width: 950px;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.pacotes .card {
+	background: white;
+	width: 250px;
+	height: 350px;
+	border-radius: 24px 0;
+	margin: 25px;
+	position: relative;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.pacotes .card:hover {
+	transform: scale(1.1);
+}
+
+.pacotes .card .card-tag-top{
+	position: absolute;
+	right: 0;
+	top: 15px;
+	background: #FEA805;
+	border-radius: 8px 0 0 8px;
+	padding: 5px 10px;
+}
+
+.pacotes .card .card-tag p{
+	margin: 0;
+	font-size: 0.8rem;
+	color: #F9F9FB;
+	font-weight: bold;
+}
+
+.pacotes .card-image {
+	width: 250px;
+	height: 200px;
+	border-radius: 24px 0 0 0;
+	/*object-fit: cover;*/
+}
+
+.pacotes .card-content{
+	padding: 0 15px;
+}
+
+.pacotes .card-content ul{
+	display: flex;
+	flex-direction: column;
+	padding: 0;
+}
+
+.pacotes .card-content ul li{
+	font-size: 0.8rem;
+	display: flex;
+	align-items: center;
+	margin: 3px 0;
+	color: #7E7E7E;
+	font-weight: bold;
+}
+
+.pacotes .card-content li svg {
+	width: 16px;
+	height: 16px;
+	margin-right: 10px;
+}
+.pacotes .card-content h1 {
+	font-size: 1rem;
+}
+
+.pacotes .card .card-tag-bottom{
+	position: absolute;
+	left: 0;
+	top: 160px;
+	background: #1752CF;
+	border-radius: 0 8px 8px 0;
+	padding: 5px 10px;
+}
+
+.servicos{
+	padding: 15px;
+}
+
+.servicos .servicos-title{
+	text-align: center;
+	margin: 35px 0;
+}
+
+.servicos .servicos-cards{
+	padding-top: 25px;
+	display: flex;
+	max-width: 950px;
+	justify-content: center;
+	margin: auto;
+	flex-wrap: wrap;
+}
+
+.servicos .card{
+	width: 250px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin: 0 20px;
+}
+
+.servicos .card svg{
+	width: 60px;
+	height: 60px;
+	margin: 30px 0;
+	transition: all 1s;
+}
+
+.servicos .card svg:hover{
+	stroke: #FEA805;
+	transform: scale(1.1);
+}
+
+.servicos .card h2{
+	font-weight: bold;
+	font-size: 1.3rem;
+}
+
+.servicos .card p {
+	color: #7E7E7E;
+	font-size: .8rem;
+	text-align: center;
+}
+
+.servicos .card .card-content{
+	height: 180px;
+	text-align: center;
+}
+
+#map {
+	height: 400px;
+	width: 100%;
+}
+
+.contato{
+	padding: 60px;
+	position: relative;
+	background: #F5F5F7;
+}
+
+.contato .contato-card{
+	width: 350px;
+	height: 300px;
+	position: absolute;
+	z-index: 99;
+	background: white;
+	border-radius: 8px;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	top: calc(50% - 150px); /*em relação a altura*/
+	left: calc(20% - 175px); /*em relação a largura*/
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.contato .contato-card h1{
+	padding-left: 50px;
+	text-align: left;
+}
+
+.contato .contato-card li{
+	font-size: .8rem;
+	font-weight: bold;
+	color: #7E7E7E;
+
+	display: flex;
+	align-items: center;
+}
+
+.contato .contato-card li svg{
+	width: 16px;
+	margin: 10px;
+}
+
+.rodape{
+	background: no-repeat center/cover url('assets/rodape.jpg');
+	width: 100%;
+	height: 150px;
+	object-fit: cover;
+
+	margin: auto;
+	padding: 0;
+
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+}
+
+.rodape .rodape-social{
+	display: flex;
+	flex-direction: column;
+}
+.rodape .rodape-social li{
+	margin: 3px 0;
+	align-items: center;
+	display: flex;
+	font-weight: bold
+}
+.rodape .rodape-social li svg{
+	height: 16px;
+	width: 16px;
+	margin-right: 10px;
+}
+
+.rodape nav ul{
+	margin: 5px 0;
+	display: flex;
+	flex-direction: column;
+	font-weight: bold
+}
+
+/* RESPONSIVIDADE */
+/*especial para o mapa*/
+@media (max-width: 950px){
+	.contato{
+		padding: 60px 0;
+	}
+	.contato .contato-card{
+		left: 40px;
+	}	
+}
+
+@media (max-width: 800px){	
+	.contato{
+		padding: 20px 0;
+	}
+
+	.contato .contato-card{
+		position: static; 
+		margin: 40px auto;
+	}
+}
+
+@media (max-width: 767px){
+	
+}
+
+@media (max-width: 480px){
+	body{
+		margin-bottom: 55px;
+	}
+	header nav ul{
+		position: fixed;
+		bottom: 0;
+		left: 0;
+		padding: 0;
+		width: 100%;
+		margin: 0;
+
+		z-index: 99;
+
+		background: #FEA805;
+		color: #F9F9FB;
+		font-weight: bold;
+		height: 55px;
+
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+
+	}
+
+	header nav p{
+		width: 100%;
+		text-align: center;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 979px) {
+	
+}
+
+@media (min-width: 1200px){
+	
+}
