@@ -1,6 +1,6 @@
 # Travel agency website ✈💙
 O projeto consiste em um website estático para uma agência de viagens fictícia. O objetivo do mesmo foi treinar os conceitos acerca de HTML e CSS.
-Para visitar o projeto, clique aqui.
+Para visitar o projeto, <a href="https://nataliakrein.github.io/travel-agency-website/">clique aqui</a>.
 
 Principais conceitos colocados em prática:
 <ul>
